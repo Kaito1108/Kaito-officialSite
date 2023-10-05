@@ -1,0 +1,112 @@
+a.btn_01 {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    width: 120px;
+    margin: auto;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #000000;
+    color: #000000;
+    transition: 0.5s;
+}
+
+a.btn_01:hover {
+    color: #fff;
+    background: #000000;
+}
+
+/* ページ全体のスタイル */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダースタイル */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #5c5c5c;
+}
+
+p {
+    height: 20px;
+}
+
+/* セクションのタイトルスタイル */
+h1.section-title {
+    font-size: 24px;
+    color: #444;
+    margin-top: 30px;
+}
+
+/* 画像のスタイル */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* コピーライトのスタイル */
+h3.copyright {
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h1.section-title {
+        font-size: 22px;
+    }
+}
+
+.card {
+    width: 288px;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
+}
+
+.card__imgframe {
+    width: 100%;
+    height: auto;
+    padding-top: 56.25%;
+    background: #bbb;
+    box-sizing: border-box;
+}
+
+.card__textbox {
+    width: 100%;
+    height: auto;
+    padding: 20px 18px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.card__textbox>*+* {
+    margin-top: 10px;
+}
+
+.card__titletext {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 125%;
+}
+
+.card__overviewtext {
+    font-size: 12px;
+    line-height: 150%;
+}
