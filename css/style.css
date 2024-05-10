@@ -60,16 +60,3 @@ h3.copyright {
     color: #999;
     margin-top: 20px;
 }
-
-/* レスポンシブデザイン */
-@media screen and (max-width: 1279px) {
-    .pc_introduction {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .sp_introduction {
-        display: none;
-    }
-}
