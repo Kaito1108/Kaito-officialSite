@@ -16,8 +16,9 @@
 }
 
 .card-img_06 {
+    margin-top: 20px;
     border-radius: 5px 5px 0 0;
-    max-width: 100%;
+    max-width:80%;
     height: auto;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .card-title_06 {
-    font-size: 1.6em;
+    font-size: 1.3em;
     color: #333;
     font-weight: 700;
 }
